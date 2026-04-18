@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Divyaz Arts Gallery — Divya Navale</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── NAV ── -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">Divyaz Arts</a>
+      <ul class="nav-links">
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <ul class="nav-mobile" id="mobileMenu">
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero" id="home">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="hero-label">Portrait Artist</p>
+        <h1 class="hero-name">Divya<br/>Navale</h1>
+        <div class="hero-divider"></div>
+        <p class="hero-bio">
+          I am Divya, a portrait artist who finds meaning in every face I draw.<br/>
+          My work focuses on capturing emotions, expressions,<br/>
+          and the quiet stories behind them.
+        </p>
+        <a href="#gallery" class="hero-cta">View Gallery</a>
+      </div>
+      <div class="hero-image-wrap">
+        <img src="images/artist.png" alt="Divya Navale" class="hero-artist-img" />
+      </div>
+    </div>
+    <div class="hero-featured">
+      <p class="featured-label">Featured Work</p>
+      <div class="hero-featured-frame">
+        <img src="images/art1.png" alt="Featured artwork" class="hero-featured-img" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ── GALLERY ── -->
+  <section class="gallery" id="gallery">
+    <div class="section-header">
+      <p class="section-label">Portfolio</p>
+      <h2 class="section-title">Gallery</h2>
+      <div class="section-rule"></div>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item"><img src="images/art1.png" alt="Portrait 1" /><div class="gallery-overlay"><span>Portrait I</span></div></div>
+      <div class="gallery-item"><img src="images/art2.png" alt="Portrait 2" /><div class="gallery-overlay"><span>Portrait II</span></div></div>
+      <div class="gallery-item"><img src="images/art3.png" alt="Portrait 3" /><div class="gallery-overlay"><span>Portrait III</span></div></div>
+      <div class="gallery-item"><img src="images/art4.png" alt="Portrait 4" /><div class="gallery-overlay"><span>Portrait IV</span></div></div>
+      <div class="gallery-item"><img src="images/art5.png" alt="Portrait 5" /><div class="gallery-overlay"><span>Portrait V</span></div></div>
+      <div class="gallery-item"><img src="images/art6.png" alt="Portrait 6" /><div class="gallery-overlay"><span>Portrait VI</span></div></div>
+      <div class="gallery-item"><img src="images/art7.png" alt="Portrait 7" /><div class="gallery-overlay"><span>Portrait VII</span></div></div>
+      <div class="gallery-item"><img src="images/art8.png" alt="Portrait 8" /><div class="gallery-overlay"><span>Portrait VIII</span></div></div>
+      <div class="gallery-item"><img src="images/art9.png" alt="Portrait 9" /><div class="gallery-overlay"><span>Portrait IX</span></div></div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section class="about" id="about">
+    <div class="section-header">
+      <p class="section-label">The Artist</p>
+      <h2 class="section-title">About Me</h2>
+      <div class="section-rule"></div>
+    </div>
+    <div class="about-inner">
+      <div class="about-image-wrap">
+        <img src="images/artist.png" alt="Divya Navale" class="about-img" />
+        <div class="about-image-border"></div>
+      </div>
+      <div class="about-text">
+        <h3 class="about-name">Divya Navale</h3>
+        <p class="about-title">Portrait Artist · Pencil &amp; Paint</p>
+        <div class="about-rule"></div>
+        <p class="about-bio">
+          I am Divya Navale, a passionate portrait artist who works with pencil and paint to bring life to human expressions. My journey began with simple sketches and slowly grew into a deep connection with realism and emotion.
+        </p>
+        <p class="about-bio">
+          Every artwork I create is not just a drawing, but a reflection of a story, a feeling, and a moment.
+        </p>
+        <div class="about-tags">
+          <span>Pencil Portraits</span>
+          <span>Realism</span>
+          <span>Emotion</span>
+          <span>Commissions Open</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section class="contact" id="contact">
+    <div class="section-header">
+      <p class="section-label">Get in Touch</p>
+      <h2 class="section-title">Contact</h2>
+      <div class="section-rule"></div>
+    </div>
+    <div class="contact-inner">
+      <p class="contact-tagline">Commission a portrait or simply say hello.</p>
+      <div class="contact-links">
+        <a href="mailto:divcyaart045@gmail.com" class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <p class="contact-card-label">Email</p>
+          <p class="contact-card-value">divcyaart045@gmail.com</p>
+        </a>
+        <a href="https://instagram.com/divyaz_art_gallery" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </div>
+          <p class="contact-card-label">Instagram</p>
+          <p class="contact-card-value">@divyaz_art_gallery</p>
+        </a>
+        <a href="https://wa.me/919322331576?text=Hello%20I%20would%20like%20to%20book%20a%20portrait" target="_blank" rel="noopener" class="contact-card">
+          <div class="contact-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+          </div>
+          <p class="contact-card-label">WhatsApp</p>
+          <p class="contact-card-value">Book a Portrait</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <p>© 2025 Divyaz Arts Gallery &nbsp;·&nbsp; Divya Navale</p>
+  </footer>
+
+  <!-- ── WHATSAPP FIXED BUTTON ── -->
+  <a href="https://wa.me/919322331576?text=Hello%20I%20would%20like%20to%20book%20a%20portrait"
+     class="whatsapp-btn" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 32 32" fill="white" xmlns="http://www.w3.org/2000/svg">
+      <path d="M16 3C9.373 3 4 8.373 4 15c0 2.385.664 4.61 1.8 6.513L4 29l7.7-1.77A11.94 11.94 0 0 0 16 28c6.627 0 12-5.373 12-12S22.627 3 16 3zm0 21.5a9.46 9.46 0 0 1-4.83-1.317l-.347-.206-3.6.826.863-3.5-.226-.36A9.46 9.46 0 0 1 6.5 15c0-5.238 4.262-9.5 9.5-9.5S25.5 9.762 25.5 15 21.238 24.5 16 24.5zm5.2-6.98c-.285-.143-1.687-.832-1.949-.926-.262-.095-.453-.143-.644.143-.19.286-.738.926-.904 1.118-.166.19-.333.214-.618.072-.285-.143-1.203-.443-2.291-1.413-.847-.754-1.418-1.687-1.584-1.972-.166-.285-.018-.44.125-.582.128-.128.285-.333.428-.5.143-.166.19-.285.285-.475.095-.19.048-.357-.024-.5-.071-.143-.644-1.553-.882-2.126-.232-.558-.468-.482-.644-.49l-.547-.01c-.19 0-.5.072-.762.357-.261.285-1 .977-1 2.382s1.024 2.763 1.167 2.953c.143.19 2.015 3.077 4.883 4.314.682.294 1.214.47 1.629.6.685.217 1.308.186 1.8.113.549-.082 1.687-.69 1.925-1.355.238-.666.238-1.237.166-1.355-.07-.119-.26-.19-.547-.333z"/>
+    </svg>
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
